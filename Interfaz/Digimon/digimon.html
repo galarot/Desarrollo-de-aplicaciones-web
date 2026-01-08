@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="digimon.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img class="img1" src="./imagenes/logo.png"></a>
+        <nav class="titulos">
+            <a href="#">Features</a>
+            <a href="#">Gameplay</a>
+            <a href="#">Characters</a>
+            <a href="#">Demo</a>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <div class="textintro">
+                <h1 class="titulotext">Digimon Story Time Stranger: An Epic Story of Connection</h1>
+                <p class="textointro">Take on a mision to uncover the mystery of the world's collapse, where chance
+                    encounters with unique characters will shape youyr across time and parallel worlds
+                    - and change fate itself
+                </p>
+            </div>
+        </div>
+        <div class="centro">
+            <img src="./imagenes/fondo.png">
+            <div class="textcentro">
+                <h1>Adventure Between Worlds and Time</h1>
+                <p>Journey between the parallel human world and the <br>
+                    Digital World: iliad where Digimon reside. <br></p>
+                <p>See the Digital Wolrd and its intricately detailed realms like never before, <br>
+                    with interactive elements and special quests to explore.</p>    
+                <button class="button1">Join Now!</button>
+            </div>
+        </div>
+
+        <div class="opinion">
+            <div class="user">
+                <form action="/user" method="post">
+                    <fieldset>
+                        <legend>User Data</legend>
+
+                        <label for="nombre">Username</label>
+                        <input id="nombre" name="nombre" type="text" required>
+
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="agumon@digimon.com" required>
+
+                        <label for="edad">Edad</label>
+                        <input id="edad" name="edad" type="edad" required>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="assessment">
+                <form action="/assessment" method="post">
+                    <fieldset>
+                        <legend>Assessment</legend>
+
+                        <label for="note">Note</label>
+                        <input id="note" name="note" type="text" required>
+
+                        <label for="comment">Email</label>
+                        <input id="comment" name="comment" type="comment" placeholder="White your opinion..." required>
+
+                        <button class="button2">Send</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

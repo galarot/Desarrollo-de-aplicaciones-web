@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 40% 40% 20%; 
+    height: 100vh; 
+}
+
+.texto {
+    background-color: black;
+    overflow-y: scroll;
+    font-size: 80%;
+    margin: 10% 20%;
+    text-align: center;
+}
+
+.botones {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.bparade {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+
+}

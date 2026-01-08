@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="mensaje">
+            <h2>Compra este mes y llevate un obsequio de regalo!</h2>
+        </div>
+        <div class="cabecero">
+            <img class ="logo" src="./multimedia/logo.png">
+            <input type="checkbox" id="menutog" class="menutog">
+            <label for="menutog" class="hamburguesa">&#9776;</label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="nosotros.html">Sobre nosotros</a>
+                <a class="elegida" href="contactos.html">Contactos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="horario">
+            <h1>Horario</h1>
+            <div>
+                <img class="cartelimg" src="./multimedia/cartel.png">
+            </div>
+        </section>
+
+        <section class="texto3">
+            <img class="panaderia" src="./multimedia/panaderia.png" >
+            <div class="desc3">
+                <div class="textodesc">
+                    <h2>¿Donde encontrarnos?</h2>
+                    <p>Nos puedes encontrar en la calle Pl. Mayor 8, 28000, en Granada, donde te ofrecemos un sitio
+                    perfecto para disfrutar de nuestro pan de mayor calidad al instante, os esperamos
+                    </p>
+                </div>
+                
+            </div>
+            <a class= "enlacemapa" href="https://www.google.com/maps/place/Pl.+Mayor,+28530+Morata+de+Taju%C3%B1a,+Madrid/@40.2294474,-3.4387253,17z/data=!4m10!1m2!2m1!1sPl.+Mayor+8,+28000!3m6!1s0xd42153cfafe1119:0xb57b373f38e46265!8m2!3d40.2294106!4d-3.4367941!15sChJQbC4gTWF5b3IgOCwgMjgwMDCSAQVyb3V0ZeABAA!16s%2Fg%2F1tgs26yp?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">
+                <img class="mapa" src="./multimedia/mapa.png">
+            </a>
+            
+        </section>
+
+
+        <section class="formulario1">
+            <form class="form1" action="#" method="POST">
+
+                <div class="fila1">
+                <div class="campo1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="nombre1" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="campo1">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" class="apellidos1" name="apellidos" placeholder="Tus apellidos" required>
+                </div>
+                </div>
+
+                <div class="fila1">
+                <div class="campo1">
+                    <label for="email">Correo electrónico</label>
+                    <input type="em ail" id="email" class="correo1" name="email" placeholder="Tu email" required>
+                </div>
+
+                <div class="campo1">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="telefono1" name="telefono" placeholder="Tu teléfono">
+                </div>
+                </div>
+
+                <div class="campo1 campo2">
+                    <label for="mensaje">Tu mensaje</label>
+                    <textarea id="mensaje" class="mensaje1" name="mensaje" placeholder="Escribe tu mensaje" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="boton1">Enviar</button>
+
+            </form>
+        </section>
+    <footer class="footer">
+        <div class="footcontenedor">
+
+            <div class="footcolum">
+                <h3 class="foottitulo">Panadería Online</h3>
+                <a class="foottexto" href="#">Pan</a>
+                <a class="foottexto" href="#">Dulce</a>
+                <a class="foottexto" href="#">Salado</a>
+                <a class="foottexto" href="#">Novedades</a>
+                <a class="foottexto" href="#">Catering</a>
+            </div>
+
+            <div class="footcolum">
+                <h3 class="foottitulo">Servicios</h3>
+                <a class="foottexto" href="#">Obrador</a>
+                <a class="foottexto" href="#">Pedidos</a>
+                <a class="foottexto" href="#">Eventos</a>
+                <a class="foottexto" href="#">Nuestra filosofía</a>
+            </div>
+
+            <div class="footcolum">
+                <h3 class="foottitulo">Información</h3>
+                <a class="foottexto" href="#">Trabaja con nosotros</a>
+                <a class="foottexto" href="#">Política de privacidad</a>
+                <a class="foottexto" href="#">Términos y condiciones</a>
+                <a class="foottexto" href="#">Aviso legal</a>
+            </div>
+
+            <div class="footcolum">
+                <h3 class="foottitulo">Contacto</h3>
+                <p class="foottexto">Tel. 626 26 37 73</p>
+                <a class="foottexto" href="#">Formulario de contacto</a>
+                <a class="foottexto" href="#">FAQs</a>
+            </div>
+
+        </div>
+
+        <div class="footcopy">
+            <p class="foottexto">©2025 Horno San Miguel - Todos los derechos reservados.</p>
+        </div>
+    </footer>        
+        
+    </main>
+</body>
+</html>

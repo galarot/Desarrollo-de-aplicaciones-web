@@ -1,0 +1,20 @@
+body{
+    background-image: url(/multimedia/fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#tabla {
+    display: grid;
+    gap: 1px;
+
+}
+
+.celda{
+    width: 30px;
+    height: 30px;
+    background-color: azure;
+    border: 1px solid black;
+}

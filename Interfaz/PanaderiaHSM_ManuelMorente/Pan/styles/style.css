@@ -1,0 +1,741 @@
+/*Header*/
+.logo{
+    width: 10%;
+    padding: 1%;
+}
+
+.hamburguesa{
+    display: none;
+}
+
+.menutog {
+    display: none;
+}
+
+header {
+    background-color: rgba(240,248, 255, .8);
+}
+
+.mensaje{
+    background-color:rgb(255, 241, 225);
+    text-align: center;
+
+}
+
+.mensaje h2{
+    color: rgb(206, 134, 86);
+    margin: 0;
+}
+
+.cabecero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;                
+    padding: 1% 0; 
+}
+
+.menu{
+    font-family: "Marcellus", serif;
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    font-size: 140%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    white-space: nowrap;
+    color: inherit;
+    text-decoration: none;
+}
+/*Index*/
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../multimedia/obrador.jpg");
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 244, 234);
+}
+
+.pano{
+    width: 32%;
+    padding: 5%;
+    transition: transform 0.3s;
+}
+
+.pano:hover{
+    transform: scale(1.05);
+}
+
+.titulo1{
+    text-align: center;
+    padding: 15%;
+    font-size: 500%;
+    font-family: "Marcellus", serif;
+    color: white;
+    text-shadow: 0 0 8px rgba(0,0,0,0.55);
+}
+
+.panaderos{
+    width: 32%;
+    padding: 5%;
+    transition: transform 0.3s;
+}
+
+.panaderos:hover{
+    transform: scale(1.05);
+}
+
+.infopan{
+    background-image: url("../multimedia/pizarra.png.jpg");
+}
+
+.desc1{
+    width: 100%;
+    background-size: cover;
+    background-image: url("../multimedia/cuaderno.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    padding: 18% 18%; 
+    max-width: 600px;
+}
+
+.desc1 p{
+    font-family: "Marcellus", serif;
+    font-size: 150%;
+    line-height: 1.4;
+    z-index: 2;
+    text-align: justify;
+    text-align: center;
+}
+
+.texto1{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.texto2{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.desc2{
+    width: 100%;
+    background-size: cover;
+    background-image: url("../multimedia/cuaderno.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    padding: 18% 18%; 
+    max-width: 100%;
+}
+
+.desc2 p{
+    font-family: "Marcellus", serif;
+    font-size: 150%;
+    line-height: 1.4;
+    z-index: 2;
+    text-align: justify;
+    text-align: center;
+}
+
+.elegida{
+    background-color: rgba(255, 153, 0, 0.9);
+    border-radius: 20%;
+}
+
+/*Productos */
+
+.textoprod{
+    font-family: "Marcellus", serif;
+    padding: 15%;
+    font-size: 350%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 8px rgba(0,0,0,9);
+}
+
+.textoprod a{
+    white-space: nowrap;
+    color: rgb(177, 109, 27);
+}
+
+#prodcs{
+    background-image: url("../multimedia/bandejaa.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 50%;
+    min-height: 90%;
+    padding: 6% 0;
+    font-family: "Marcellus", serif;
+    font-size: 150%;
+}
+
+.imgs p{
+    color:#F8F4E8;
+}
+
+.imgs h2{
+    color:#F8F4E8;
+}
+
+.panes, .bolleria, .salados, .otros{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;   
+    border-radius: 10px;
+    border: 3px solid rgb(122, 61, 4);
+    transition: transform 0.3s;
+}
+
+.otros{
+    border-radius: 15px;
+}
+
+.panes:hover{
+    transform: scale(1.1);
+}
+
+.bolleria:hover{
+    transform: scale(1.1);
+}
+
+.salados:hover{
+    transform: scale(1.1);
+}
+
+.otros:hover{
+    transform: scale(1.1);
+}
+
+.imgspanes{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    animation: fade 9s infinite;
+}
+
+.imgspanes:nth-child(1) { animation-delay: 0s; }
+.imgspanes:nth-child(2) { animation-delay: 3s; }
+.imgspanes:nth-child(3) { animation-delay: 6s; }
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  33%  { opacity: 1; }
+  43%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.precio{
+    background-color: #D9B26C;
+    max-width: 50%;
+    border-radius: 10%;
+}
+
+
+.elegida{
+    background-color: rgba(255, 153, 0, 0.9);
+    border-radius: 20%;
+}
+
+/*Nosotros */
+.elegida{
+    background-color: rgba(255, 153, 0, 0.9);
+    border-radius: 20%;
+}
+
+.historia{
+    background-color: wheat;
+    max-width: 60%;
+    border-radius: 2%;
+    font-family: "Marcellus", serif;
+    margin: 40px auto;
+}
+
+.imghistoria{
+    display: flex;
+    padding: 2%;
+}
+
+.imghist1{
+    width: 40%;
+    padding: 1%;
+    margin-left: 8%;
+    transition: transform 0.3s;
+}
+
+.imghist2{
+    width: 40%;
+    padding: 1%;
+    transition: transform 0.3s;
+}
+
+.imghoy{
+    display: flex;
+    padding: 2%;
+}
+
+.imghoy1{
+    width: 40%;
+    padding: 1%;
+    margin-left: 8%;
+    transition: transform 0.3s;
+}
+
+.imghoy2{
+    width: 40%;
+    padding: 1%;
+    transition: transform 0.3s;
+}
+
+.contenido{
+    padding: 1%;
+}
+.contenido p{
+    font-family: "Marcellus", serif;
+}
+
+.imghist1:hover{
+    transform: scale(1.1);
+}
+
+.imghist2:hover{
+    transform: scale(1.1);
+}
+
+.imghoy1:hover{
+    transform: scale(1.1);
+}
+
+.imghoy2:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*Contactanos */
+
+.horario{
+    text-align: center;
+}
+
+.horario h1{
+    color: azure;
+    font-size: 440%;
+    text-shadow: 0 0 8px rgba(0,0,0,9);
+    font-family: "Marcellus", serif;
+}
+
+.desc3{
+    position: relative;
+    width: 50%;
+    min-height: 500px;
+    background-image: url("../multimedia/carta.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc3 p{
+    position: absolute;
+    min-width: 35%;
+    font-family: "Dancing Script", cursive;
+    font-size: 100%;
+    text-align: center;
+    line-height: 1.4;
+    transform: translateX(-50%);
+    top: 22%;
+    width: 40%;
+    height: 50%;
+    left: 50%;
+}
+
+.texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 4% 0;
+    background-image: url("../multimedia/madera.jpg");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panaderia{
+    width: 30%;
+    max-width: 350px;
+    display: block;
+    margin-left: 10%;
+    transition: transform 0.3s;
+}
+
+.panaderia:hover{
+    transform: scale(1.1);
+}
+
+.formulario1 {
+    background-color:rgba(255, 235, 213, 0.7);
+    padding: 4%;
+    width: 50%;
+    margin: auto;
+    font-size: 120%;
+    font-family: "Dancing Script", cursive;
+}
+
+.form1 {
+    width: 100%;
+}
+
+.fila1 {    
+    display: flex;
+    gap: 2%;
+    margin-bottom: 3%;
+}
+
+.campo1 {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 1%;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #888;
+    outline: none;
+}
+
+.boton1 {
+    text-align: center;
+    padding: 2% 4%;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton1:hover {
+    opacity: 0.9;
+}
+
+.elegida{
+    background-color: rgba(255, 153, 0, 0.9);
+    border-radius: 20%;
+}
+
+.mapa{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.textodesc h2{
+    color: rgb(255, 247, 236);
+    font-family: "Marcellus", serif;
+}
+
+.mapa:hover{
+    transform: scale(1.1);
+}
+
+/*Footer*/
+
+.footer {
+    background-color: rgb(160, 85, 0);
+    color: white;
+    padding: 3% 5%;
+    font-family: "Marcellus", serif;
+}
+
+.footcontenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+.footcolum {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 150px;
+}
+
+.foottitulo {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+}
+
+.foottexto {
+    color: rgb(255, 247, 236);
+    text-decoration: none;
+    font-size: 95%;
+}
+
+.foottexto:hover {
+    color: rgb(255, 153, 0);
+}
+
+.footcopy {
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 1%;
+    border-top: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .hamburguesa{
+        display: block;
+        font-size: 250%;
+        cursor: pointer;
+    }
+
+    .menu{
+        flex-direction: column;
+        display: none;
+        left: 0;
+        width: 100%;
+        padding: 4% 0;
+    }
+
+    .menutog:checked ~ .menu{
+        display: flex;
+    }
+
+    .cabecero {
+        gap: 10%;
+    }
+    .logo {
+        width: 25%;
+    }
+    .menu {
+        flex-wrap: wrap;
+        gap: 4%;
+        font-size: 110%;
+    }
+    .texto1, .texto2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pano{
+        width: 70%;
+        padding: 2%;
+    }
+
+    .panaderos {
+        width: 70%;
+        padding: 2%;
+    }
+    .desc1{
+        max-width: 50%;
+        padding: 20% 8%;
+        background-size: 90% auto;
+        padding: 20%; 
+        min-height: 0; 
+    }
+    
+    .desc2 {
+        max-width: 50%;
+        padding: 20% 8%;
+        background-size: 90% auto;
+        padding: 20%; 
+        min-height: 0; 
+    }
+
+    .desc1 p{
+        font-size: 100%;
+        text-align: center;
+        line-height: 2.4;
+    }
+
+    .desc2 p {
+        font-size: 100%;
+        text-align: center;
+        line-height: 2.4;
+    }
+    .titulo1 {
+        font-size: 280%;
+        padding: 20% 5%;
+    }
+
+
+    /*Productos */
+    .menu{
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 100%;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .imgs{
+        grid-template-columns: 1fr;
+        width: 80%;
+        gap: 30px;
+        font-size: 120%;
+    }
+
+    .textoprod{
+        font-size: 200%;
+        padding: 12%;
+    }
+
+    #prodcs{
+        background-size: 500%;
+    }
+
+    /*Contactanos*/
+
+    .fila1 {
+        flex-direction: column;
+    }
+    .formulario1 {
+        width: 85%;
+    }
+    .texto3 {
+        flex-direction: column;
+        padding: 8% 0;
+    }
+    .panaderia {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .desc3 {
+        width: 60%;
+        min-height: 450px;
+    }
+    .desc3 p {
+        max-width: 70%;
+        width: 70%;
+        font-size: 110%;
+        top: 14%;
+    }
+    .mapa {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .textodesc p{
+        max-width: 50%;
+    }
+
+    /*Nosotros*/
+     .historia {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 3%;
+    }
+
+    .contenido h2 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .contenido p {
+        font-size: 95%;
+        text-align: justify;
+    }
+    .imghistoria,
+    .imghoy {
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 0;
+        gap: 15px;
+    }
+
+    .imghist1{
+        width: 80%;
+        margin: 0;
+    }
+
+    .imghist2
+    {
+        width: 80%;
+        margin: 0;
+    }
+
+    .imghoy1{
+        width: 80%;
+        margin: 0;
+    }
+
+    .imghoy2 {
+        width: 80%;
+        margin: 0;
+    }
+
+    .footcontenedor {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footcolum {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .foottitulo {
+        font-size: 130%;
+    }
+
+    .foottexto {
+        font-size: 100%;
+    }
+
+}

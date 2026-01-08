@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+}
+.cabecera{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    margin-left: 15px;
+}
+
+.cositas{
+    text-align: center;
+    background-color: aliceblue;
+    border: 5px solid black;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.buscador{
+    margin-left: 700px;
+    margin-top: 20px;
+}
