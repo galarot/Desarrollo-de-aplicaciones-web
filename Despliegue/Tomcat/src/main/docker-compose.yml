@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  tomcat:
+    image: tomcat:10.1
+    container_name: tomcat_t3
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    restart: unless-stopped
