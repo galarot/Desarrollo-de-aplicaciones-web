@@ -6,17 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark h4 pb-2 mb-4 text-danger border-bottom border-danger">
+        <nav class="navbar bg-black pb-2 border-bottom border-danger">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                <img src="maquetacion-strangerthings/img/logo.png" alt="Bootstrap" width="200" height="100">
+                <img src="maquetacion-strangerthings/img/logo.png" alt="Bootstrap" width="250" height="100">
                 </a>
             </div>
-            <nav class="navbar bg-dark">
+            <nav class="navbar bg-black navbar-expand-lg    ">
                 <div class="container-fluid">
                     <a class="nav-link text-white mx-3" href="#">Inicio</a>
                     <a class="nav-link text-white mx-3" href="#">Personajes</a>
@@ -27,12 +27,75 @@
     </header>
     <main>
         <section class="hero d-flex align-items-center justify-content-center text-center">
-            <div class="hero-overlay"></div>
-            
-            <div class="container z-1">
-                <h1 class="display-1 str-title">WELCOME TO HAWKINS</h1>
-                <p class="lead text-white mb-4">Un viaje al otro lado empieza aquí.</p>
-                <a href="#" class="btn btn-outline-danger btn-lg str-button">VER TEMPORADAS</a>
+            <div class="hero-overlay">
+                <div class="container z-1">
+                    <h1 class="titulo display-1 str-title text-danger">WELCOME TO HAWKINS</h1>
+                    <p class="lead text-white mb-4">Un viaje al otro lado empieza aquí.</p>
+                    <a href="#" class="btn btn-outline-danger btn-lg str-button">VER TEMPORADAS</a>
+                </div>
+            </div>
+        </section>
+        <section class="border-top border-danger bg-black">
+            <div class="container">
+                <h2 class="titulo display-1 str-title text-center text-danger">PERSONAJES PRINCIPALES</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="maquetacion-strangerthings/img/eleven.webp" class="card-img-top" alt="Eleven">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">ELEVEN (JANE)</h3>
+                                <p class="card-text text-dark-emphasis fs-6">La chica con poderes psicoquinéticos que salvó el mundo más de una vez.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="maquetacion-strangerthings/img/mike.webp" class="card-img-top" alt="Mike Wheeler">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">MIKE WHEELER</h3>
+                                <p class="card-text text-dark-emphasis fs-6">El líder del grupo, fiel amigo y estratega en D&D.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="maquetacion-strangerthings/img/dustin.webp" class="card-img-top" alt="Dustin Henderson">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">DUSTIN HENDERSON</h3>
+                                <p class="card-text text-dark-emphasis fs-6">El genio científico del grupo, siempre con un plan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="maquetacion-strangerthings/img/lucas.webp" class="card-img-top" alt="Lucas Sinclair">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">LUCAS SINCLAIR</h3>
+                                <p class="card-text text-dark-emphasis fs-6">Valiente y leal, el guardabosques del equipo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-3">
+                        <div class="card bg-dark">
+                            <img src="maquetacion-strangerthings/img/hopper.webp" class="card-img-top" alt="Jim Hopper">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">JIM HOPPER</h3>
+                                <p class="card-text text-dark-emphasis fs-6">El jefe de policía que lo arriesgará todo por Eleven.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-dark">
+                            <img src="maquetacion-strangerthings/img/max.webp" class="card-img-top" alt="Max Mayfield">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">MAX MAYFIELD</h3>
+                                <p class="card-text text-dark-emphasis fs-6">La nueva integrante que demostró ser una guerrera.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -40,7 +103,6 @@
     <footer>
         
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 

@@ -1,4 +1,19 @@
 .hero{
-    -bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) url("maquetacion-strangerthings/img/hero.jpg");
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("maquetacion-strangerthings/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+h3{
+  font-family: 'Creepster', Arial;
+}
+
+.titulo{
+  font-family: 'Creepster', Arial;
 }
