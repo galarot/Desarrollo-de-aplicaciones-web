@@ -94,14 +94,17 @@
                maxParameterCount="1000"
                >
         <UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
+        -->
         <SSLHostConfig>
-            <Certificate certificateKeystoreFile="conf/localhost-rsa.jks"
-                         certificateKeystorePassword="changeit" type="RSA" />
+            <Certificate certificateFile="/usr/local/tomcat/certs/tomcat.crt"
+                        certificateKeyFile="/usr/local/tomcat/certs/tomcat.key"
+                        type="RSA" />
         </SSLHostConfig>
+        <!--
     </Connector>
-    -->
+    
 
-    <!-- Define an AJP 1.3 Connector on port 8009 -->
+    Define an AJP 1.3 Connector on port 8009 -->
     <!--
     <Connector protocol="AJP/1.3"
                address="::1"
