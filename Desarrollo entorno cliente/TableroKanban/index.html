@@ -8,16 +8,21 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="section1">
+            <h1>Tablero configuracion:</h1>
             <form id="formulario">
                 <label for="texto">Numero:</label>
-                <input type="text" id="num" placeholder="escribe...">
-                <br>
+                <input type="number" id="num" placeholder="escribe...">
+                <div id="columnas"></div>
                 <button id="enviar" type="submit">Enviar</button>
             </form>
-            <div id=""></div>
+            
         </section>
-    <div id="tabla"></div>
+        
+        <section id="tableroSec">
+                <button id="limpiar">Reiniciar</button>
+                <div id="tabla"></div>
+        </section>
     </main>
     <script src="main.js"></script>
 </body>
