@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kanban</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,17 +11,22 @@
         <section id="configSec">
             <h1>Tablero configuracion:</h1>
             <form id="formulario">
-                <label for="texto">Numero:</label>
+                <label for="texto">Numero de columnas:</label>
                 <input type="number" id="num" placeholder="escribe...">
                 <div id="columnas"></div>
                 <button id="enviar" type="submit">Enviar</button>
             </form>
             
         </section>
-        
+
+            <div id="titulillo"></div>
+
         <section id="tableroSec">
-                <button id="limpiar">Reiniciar</button>
                 <div id="tabla"></div>
+                <br>
+        </section>
+        <section id="btn">
+                <button id="limpiar">Reiniciar</button>
         </section>
     </main>
     <script src="main.js"></script>

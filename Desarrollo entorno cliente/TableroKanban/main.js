@@ -5,7 +5,8 @@ const cols = document.getElementById("columnas");
 const configSec = document.getElementById("configSec");
 const tabSec = document.getElementById("tableroSec");
 const limpiarbtn = document.getElementById("limpiar");
-
+const titulillo = document.getElementById("titulillo");
+const btn = document.getElementById("btn");
 
 function obtener (){
     const datos = localStorage.getItem("tablero");
@@ -27,7 +28,7 @@ inputNum.addEventListener("input", () =>{
     for(let i = 0; i < cant; i++){
         //titulo col
         const titulo = document.createElement("h3");
-        titulo.textContent = "Columna numero " + (" | ") + "Tarea numero ";
+        titulo.textContent = "Columna " + (" | ") + "Tarea ";
 
         //nombre col
         const inputNombre = document.createElement("input");
@@ -56,7 +57,7 @@ form.addEventListener("submit", (e) =>{
     const inicial = [];
     nombre.forEach((input, i) =>{
         inicial.push({
-            nombre:inputNum.value,
+            nombre:input.value,
             maxs: parseInt(max[i].value),
             tareas: [] //tareas vacias
         });
@@ -74,13 +75,17 @@ form.addEventListener("submit", (e) =>{
     }**/
 })
 
-limpiarbtn.addEventListener("click", () =>{
-    localStorage.removeItem("tablero");
-    location.reload();
-})
+
+const tituloTab = document.createElement("h2");
+tituloTab.textContent = "Tablero kanban";
+
 
 function mostrarTabla(){
     const datos = obtener();
+
+    if(!datos) return;
+
+    
 
     configSec.style.display = "none";
     tabSec.style.display = "block";
@@ -88,6 +93,8 @@ function mostrarTabla(){
 
     //recorre las columnas del array
     datos.forEach((columna, indiceCol) =>{
+
+
         const div = document.createElement("div");
         div.className = "columna";
         div.ondragover = (e) => e.preventDefault(); //permite que se pongan cosas por encima
@@ -95,8 +102,9 @@ function mostrarTabla(){
         
         //encabezado y contador de limite
         const titulo = document.createElement("h2");
-        titulo.textContent = columna.nombre + columna.tareas.length + columna.maxs;
-        
+        titulo.textContent = columna.nombre + " " + columna.maxs + " TM";
+        titulo.className = "titu"
+
         // tareas
         const lista = document.createElement("div");
         lista.className = "contenedor";
@@ -128,11 +136,21 @@ function mostrarTabla(){
 
         const btnAñadir = document.createElement("button");
         btnAñadir.textContent = "añadir"
+        btnAñadir.onclick = () => añadir(indiceCol, inputNew.value);
 
+        
+
+        titulillo.appendChild(tituloTab)
+        div.appendChild(titulo);
+        div.appendChild(lista);
+        div.appendChild(inputNew);
+        div.appendChild(btnAñadir);
+        contenido.appendChild(div);
+        
 
 
     });
-
+    
     /** 
     contenido.innerHTML= "";
     const tablaActivo = obtener();
@@ -146,6 +164,11 @@ function mostrarTabla(){
     })  */ 
 }
 
+limpiarbtn.addEventListener("click", () =>{
+        localStorage.removeItem("tablero");
+        location.reload();
+        });
+div.appendChild(limpiarbtn);
 function añadir(indiceCol, texto){
     const datos = obtener();
     
@@ -173,12 +196,18 @@ function eliminar(indiceCol,indiceTarea){
 //mover con drag y drop
 function mover(e, indiceDes){
     const colInicio = e.dataTransfer.getData("colInicio");
-    const indiceTarea = e.dataTransfer.getData("poscion");
+    const indiceTarea = e.dataTransfer.getData("posicion");
     const datos = obtener();
 
     if(colInicio == indiceDes) 
         return;
-    if(){
+
+    //comparar max tareas y tareas puestas
+    if(datos[indiceDes].tareas.length < datos[indiceDes].maxs){
+        const movida = datos[colInicio].tareas.splice(indiceTarea, 1)[0];
+        datos[indiceDes].tareas.push(movida);
+        guardar(datos);
+        mostrarTabla();
         
     } else {
         alert("Columna llena")

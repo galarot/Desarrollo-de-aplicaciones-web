@@ -71,7 +71,6 @@ btnMostrar.addEventListener("click", (event) => {
     event.preventDefault();
     mostrarLista();
 });
-
 btnLimpiar.addEventListener("click", (event) =>{
     event.preventDefault();
     localStorage.removeItem("list");
