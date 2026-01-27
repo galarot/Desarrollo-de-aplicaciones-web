@@ -11,24 +11,70 @@
     </style>
 </head>
 <body class="bg-stone-950">
-    <header class="flex flex-col items-center h-140 bg-linear-to-t/hsl from-stone-950 to-indigo-950">
-        <p>Disponible ahora</p>
-        <h1 class="text-9xl font-bold" >Golden</h1> 
-        <p>HUNTR/X</p>
+    <header class="flex flex-col items-center min-h-220 bg-linear-to-t/hsl from-stone-950 to-indigo-950 pt-40">
+        <p class="text-2xl font-bold border-1 border-blue-500 rounded-full text-blue-500 p-2">Disponible ahora</p>
+        <h1 class="p-10 text-9xl font-bold bg-gradient-to-r from-blue-50 to-blue-900 bg-clip-text text-transparent">Golden</h1> 
+        <p class="text-2xl text-gray-400 pb-10">HUNTR/X</p>
         <img class="rounded-2xl p-1 bg-gradient-to-r from-purple-500 to-pink-500 w-140" src="img/k-pop.jpg" alt="">
        
     </header>
-    <main>
-        <section class="bg-zinc-900">
-            <h2>La historia</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum aliquam, magnam, sint nesciunt recusandae obcaecati rerum et voluptate culpa, provident repellendus! Et asperiores doloremque, placeat debitis natus quae consequatur!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam fuga enim magnam suscipit neque natus, officia excepturi facere nesciunt et at hic, illum fugit. Repudiandae et cupiditate temporibus sed iusto!
-            </p>
-        </section>
-        
-    </main>
-    <footer>
+    <main class="bg-zinc-900">
+        <section class="p-40 flex flex:row grid grid-cols-2 place-content-center gap-30">
+            <div class="flex-1">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="w-1 h-8 bg-amber-500">
+                    </div> 
+                    <h2 class="text-3xl font-bold text-white">La Historia</h2>
+                </div>
+                <p class="text-zinc-400 font-bold mb-6 text-lg">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt magni, neque aut quaerat, suscipit delectus laborum modi nam quibusdam commodi id numquam soluta molestias dolor. Quae ipsam voluptates dignissimos praesentium!
 
+                </p>
+
+                <div class="bg-black p-6 rounded-xl">
+                    <p class="text-amber-500 italic">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                         Tempore earum alias minus, praesentium necessitatibus dicta
+                    </p>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="bg-zinc-700 rounded-2xl">
+                    <div class="flex flex:row items-center p-10">
+                        <img class="rounded-2xl w-25" src="img/disco.jpg" alt="">
+                        <div class="pl-3">
+                            <h2 class="font-bold text-white">GOLDEN</h2>
+                            <p class="font-bold text-gray-400">KPOP DEMONS</p>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <audio src=""></audio>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+        <section class="text-center p-30 bg-black">
+            <h2 class="text-4xl font-bold text-white mb-2">Escúchala completa</h2>
+            <p class="text-zinc-500 mb-10">Elige tu plataforma de streaming favorita</p>
+                
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#" class="flex items-center gap-3 bg-green-400 text-black font-bold px-8 py-3 rounded-full">
+                        <span class="text-xl">🎵 Spotify</span>
+                </a>
+                <a href="#" class="flex items-center gap-3 bg-white text-black font-bold px-8 py-3 rounded-full">
+                        <span class="text-xl">▶️ YouTube Music</span>
+                </a>
+                <a href="#" class="flex items-center gap-3 bg-zinc-800 text-white font-bold px-8 py-3 rounded-full">
+                        <span class="text-xl">🍎 Apple Music</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black p-20">
+        <p class="text-center text-gray-400">@Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
     </footer>
 </body>
 </html>
