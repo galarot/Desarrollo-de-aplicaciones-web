@@ -1,7 +1,7 @@
 #tabla{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
 }
 
 body{
@@ -29,26 +29,6 @@ body{
 }
 
 
-
 .titu{
     text-align: center;
-}
-
-#btn{
-    text-align: center;
-}
-
-#limpiar{
-    padding: 1%;
-    border-radius: 15%;
-    background-color: cyan;
-}
-
-.botones{
-    background-color: cyan;
-}
-
-#enviar{
-    background-color: cyan;
-
 }

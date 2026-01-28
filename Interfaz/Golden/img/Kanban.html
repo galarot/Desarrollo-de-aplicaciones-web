@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    
+<link rel="stylesheet" href="./Kanban_files/style.css"></head>
+<body>
+    <main>
+        <section id="configSec" style="display: none;">
+            <h1>Tablero configuracion:</h1>
+            <form id="formulario">
+                <label for="texto">Numero de columnas:</label>
+                <input type="number" id="num" placeholder="escribe...">
+                <div id="columnas"><h3>Columna  | Tarea </h3><input type="text" placeholder="Nombre" class="nombreCol"><input type="number" placeholder="Limite de tareas" class="limiteCol"><h3>Columna  | Tarea </h3><input type="text" placeholder="Nombre" class="nombreCol"><input type="number" placeholder="Limite de tareas" class="limiteCol"><h3>Columna  | Tarea </h3><input type="text" placeholder="Nombre" class="nombreCol"><input type="number" placeholder="Limite de tareas" class="limiteCol"><h3>Columna  | Tarea </h3><input type="text" placeholder="Nombre" class="nombreCol"><input type="number" placeholder="Limite de tareas" class="limiteCol"></div>
+                <button id="enviar" type="submit">Enviar</button>
+            </form>
+            
+        </section>
+
+            <div id="titulillo"><h2>Tablero kanban</h2></div>
+
+        <section id="tableroSec" style="display: block;">
+                <div id="tabla" style="
+    align-items: centerM;
+"><div class="columna"><h2 class="titu">fasfa 4 TM</h2><div class="contenedor"></div><input type="text" placeholder="Nueva..."><button>añadir</button></div><div class="columna"><h2 class="titu">gargag 5 TM</h2><div class="contenedor"></div><input type="text" placeholder="Nueva..."><button>añadir</button></div><div class="columna"><h2 class="titu">rgrsg 6 TM</h2><div class="contenedor"></div><input type="text" placeholder="Nueva..."><button>añadir</button></div><div class="columna"><h2 class="titu">gsrgs 7 TM</h2><div class="contenedor"></div><input type="text" placeholder="Nueva..."><button>añadir</button></div></div>
+                <br>
+        </section>
+        <section id="btn">
+                <button id="limpiar">Reiniciar</button>
+        </section>
+    </main>
+    <script src="./Kanban_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>

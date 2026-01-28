@@ -139,9 +139,8 @@ function mostrarTabla(){
         inputNew.placeholder = "Nueva..."
 
         const btnAñadir = document.createElement("button");
-        btnAñadir.textContent = "añadir";
+        btnAñadir.textContent = "añadir"
         btnAñadir.onclick = () => añadir(indiceCol, inputNew.value);
-        btnAñadir.className="botones";
 
         
 

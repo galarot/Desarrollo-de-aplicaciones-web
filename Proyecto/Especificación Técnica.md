@@ -36,4 +36,6 @@ Ejemplo de atributos:
 Además de todos los atributos del personaje, siempre saldrá al lado de este el art cart del personaje seleccionado en cuestión.
 
 ## 4. Arquitectura del sistema
-
+Se opta por una aplicacion tipo SPA, siento Single Page Application, pues esencialmente no requiere mas de esto siendo un juego de navegador tipo Wordle.
+* **Frontend:** se desarrollará con React.js y JSX, siendo una interfaz en la que los componentes se actualizan de forma constante a la par que instantánea.
+* **Backend:** 
