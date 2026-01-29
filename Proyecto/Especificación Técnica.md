@@ -37,5 +37,18 @@ Además de todos los atributos del personaje, siempre saldrá al lado de este el
 
 ## 4. Arquitectura del sistema
 Se opta por una aplicacion tipo SPA, siento Single Page Application, pues esencialmente no requiere mas de esto siendo un juego de navegador tipo Wordle.
-* **Frontend:** se desarrollará con React.js y JSX, siendo una interfaz en la que los componentes se actualizan de forma constante a la par que instantánea.
-* **Backend:** 
+* **Modelo (Data):** un json que actúa como la fuente y de hecho la única fuente de datos.
+* **Vista (DOM):** HTML5 que se va modificando dinámicamente con javascript.
+* **Vista (JS):** script que gestioa el flujo del juego: entrada del usuario, validación, actualización de la vista.
+
+## 5. Tecnologías Propuestas
+El lenguaje base a usar donde se pondrá toda la lógica del programa, cargando JSON y organización de código.
+Estructura visual con HTML5, organizando estructura que llega a ver el usuario.
+CSS3 para mayor calidad visual en aspectos varios y estilización de gran parte (por no decir toda) la web.
+JSON estático que contiene la estructura de datos, con los +700 personajes y sus debidos atributos.
+
+## 6. Esquema base de datos
+
+
+
+
