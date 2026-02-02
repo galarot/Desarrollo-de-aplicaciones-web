@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "nombre": "Goku",
+    "anio": 2018,
+    "art_cart_url": "",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "saga": "Saiyan Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Gohan(Kid)",
+    "anio": 2018,
+    "art_cart_url": "",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "saga": "Saiyan Saga",
+      "raza": "Saiyan Hibrido"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Krillin",
+    "anio": 2018,
+    "art_cart_url": "",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "saga": "Saiyan Saga",
+      "raza": "Humano"
+    }
+  }
+
+]

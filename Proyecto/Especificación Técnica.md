@@ -38,7 +38,9 @@ Además de todos los atributos del personaje, siempre saldrá al lado de este el
 ## 4. Arquitectura del sistema
 Se opta por una aplicacion tipo SPA, siento Single Page Application, pues esencialmente no requiere mas de esto siendo un juego de navegador tipo Wordle.
 * **Modelo (Data):** un json que actúa como la fuente y de hecho la única fuente de datos.
+
 * **Vista (DOM):** HTML5 que se va modificando dinámicamente con javascript.
+
 * **Vista (JS):** script que gestioa el flujo del juego: entrada del usuario, validación, actualización de la vista.
 
 ## 5. Tecnologías Propuestas
@@ -49,6 +51,32 @@ JSON estático que contiene la estructura de datos, con los +700 personajes y su
 
 ## 6. Esquema base de datos
 
+* **Personajes (personaje):** id, nombre, anio, art_card_url, afinidad_id (FK a afinidad), rareza_id (FK a rareza), estilo_id (FK a estilo), episodio_id (FK a episodio).
 
+* **Etiquetas (etiqueta):** id, nombre_tag.
 
+* **Personaje_Etiquetas (personaje_etiqueta):** personaje_id (FK a personaje), etiqueta_id (FK a etiqueta). Esta tabla gestiona la relación muchos a muchos entre personajes y sus categorías.
 
+* **Afinidades (afinidad):** id, color, hex_code.
+
+* **Rarezas (rareza):** id, nombre_rareza.
+
+* **Estilos (estilo):** id, tipo_estilo.
+
+* **Episodios (episodio):** id, nombre_saga.
+
+* **Estadísticas Locales (estadisticas_local):** uuid_jugador, partidas_jugadas, racha_actual, maxima_racha, ultimo_acierto.
+
+## 7. Estimación de trabajo
+
+* **Fase 1:** Planificación y Diseño (2 semanas) Definición de requisitos y creación de prototipos visuales. Se establece la arquitectura del proyecto y el diseño de la interfaz.
+
+* **Fase 2:** Gestión de Datos y Lógica (3 semanas) Estructuración del archivo characters.json con los 700+ registros en personajes y desarrollo de lógica de aciertos y errores y selección diaria.
+
+* **Fase 3:** Desarrollo Frontend (5 semanas) Construcción de la interfaz con Tailwind CSS/CSS3 segun que se requiera. Implementación del buscador inteligente, el sistema de autocompletado...
+
+* **Fase 4:** Persistencia y Pruebas (2 semanas) Integración de estadísticas mediante LocalStorage para guardar rachas y récords. Pruebas de rendimiento para asegurar la carga instantánea de imágenes y corrección de errores entre otros.
+
+## 8. Conclusión
+ 
+ En este proyecto se quiere implementar algo que aunque no sea totalmente novedoso, nunca se aplicó a este pequeño pero activo fandom, y creo sinceramente que ser la primera página con tal dinámica referente a este mismo le da grandes oportunidades para destacar, además de otorgarle posibles mejores a futuro que aunque no figuran en esta especificación técnica, ya hay varias pensadas para ser implementadas a corto/medio plazo.
