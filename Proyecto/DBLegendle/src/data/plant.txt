@@ -1,0 +1,30 @@
+{
+    "id": ,
+    "nombre": "",
+    "anio": ,
+    "art_cart_url": "",
+    "atributos": {
+      "genero": "",
+      "afinidad": "",
+      "rareza": "",
+      "estilo": "",
+      "zenkai": "",
+      "saga": "",
+      "raza": ""
+    }
+  },
+  {
+    "id": ,
+    "nombre": "",
+    "anio": ,
+    "art_cart_url": "",
+    "atributos": {
+      "genero": "",
+      "afinidad": "",
+      "rareza": "",
+      "estilo": "",
+      "zenkai": "",
+      "saga": "",
+      "raza": ""
+    }
+  },

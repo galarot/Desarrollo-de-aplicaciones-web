@@ -3,26 +3,28 @@
     "id": 1,
     "nombre": "Goku",
     "anio": 2018,
-    "art_cart_url": "",
+    "art_cart_url": "./public/assets/multimedia/arts/gokuh.png",
     "atributos": {
       "genero": "Hombre",
       "afinidad": "Amarillo",
       "rareza": "Hero",
-      "estilo": "Fisico",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
       "saga": "Saiyan Saga",
       "raza": "Saiyan"
     }
   },
   {
     "id": 2,
-    "nombre": "Gohan(Kid)",
+    "nombre": "Gohan (Kid)",
     "anio": 2018,
-    "art_cart_url": "",
+    "art_cart_url": "./public/assets/multimedia/arts/gohanh.png",
     "atributos": {
       "genero": "Hombre",
       "afinidad": "Verde",
       "rareza": "Hero",
       "estilo": "Energia",
+      "zenkai": "Sin zenkai",
       "saga": "Saiyan Saga",
       "raza": "Saiyan Hibrido"
     }
@@ -31,15 +33,615 @@
     "id": 3,
     "nombre": "Krillin",
     "anio": 2018,
-    "art_cart_url": "",
+    "art_cart_url": "./public/assets/multimedia/arts/krillinh.png",
     "atributos": {
       "genero": "Hombre",
       "afinidad": "Morado",
       "rareza": "Hero",
       "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
       "saga": "Saiyan Saga",
       "raza": "Humano"
     }
+  },
+  {
+    "id": 4,
+    "nombre": "Raditz",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/raditzh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Saibaman",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/saibamanh.png",
+    "atributos": {
+      "genero": "No tiene",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Minion"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Nappa",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/nappah.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "Vegeta",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/vegetah.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Zarbon",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/zarbonh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Frieza Force"
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "Dodoria",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/dodoriah.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Frieza Force"
+    }
+  },
+  {
+    "id": 10,
+    "nombre": "Guldo",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/guldoh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Ginyu Force"
+    }
+  },
+  {
+    "id": 11,
+    "nombre": "Burter",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/burterh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Ginyu Force"
+    }
+  },
+  {
+    "id": 12,
+    "nombre": "Recoome",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/recoomeh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Ginyu Force"
+    }
+  },
+  {
+    "id": 13,
+    "nombre": "Jeice",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/jeiceh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Ginyu Force"
+    }
+  },
+  {
+    "id": 14,
+    "nombre": "Captain Ginyu",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/ginyuh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Ginyu Force"
+    }
+  },
+  {
+    "id": 15,
+    "nombre": "Frieza (1st Form)",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/freezerh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Lineage of Evil"
+    }
+  },
+  {
+    "id": 16,
+    "nombre": "Frieza (2nd Form)",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/freezerh2.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Lineage of Evil"
+    }
+  },
+  {
+    "id": 17,
+    "nombre": "Pikkon",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/pikkonh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Sagas Movies",
+      "raza": "Otro"
+    }
+  },
+  {
+    "id": 18,
+    "nombre": "Jaco",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/jacoh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Golden Frieza Saga",
+      "raza": "Galactic Patrol"
+    }
+  },
+  {
+    "id": 19,
+    "nombre": "Pan",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/panh.png",
+    "atributos": {
+      "genero": "Mujer",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "GT Saga",
+      "raza": "Saiyan Hibrido"
+    }
+  },
+  {
+    "id": 20,
+    "nombre": "Piccolo (Fused with Nail)",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/piccoloh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Namekiano"
+    }
+  },
+  {
+    "id": 21,
+    "nombre": "Yamcha",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/yamchah.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 22,
+    "nombre": "Tien",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/tienh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 23,
+    "nombre": "Chiaotzu",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/chaozh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 24,
+    "nombre": "Frost (Final Form)",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/frosth.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Universe 6 Saga",
+      "raza": "Lineage of Evil"
+    }
+  },
+  {
+    "id": 25,
+    "nombre": "Android #20",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/20h.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Android Saga",
+      "raza": "Android"
+    }
+  },
+  {
+    "id": 26,
+    "nombre": "Android #19",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/19h.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Android Saga",
+      "raza": "Android"
+    }
+  },
+  {
+    "id": 27,
+    "nombre": "Yamcha",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/yamchah2.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 28,
+    "nombre": "Saibaman",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/saibamanh2.png",
+    "atributos": {
+      "genero": "No tiene",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Minion"
+    }
+  },
+  {
+    "id": 29,
+    "nombre": "Jaco",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/jacoh2.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Galactic Patrol"
+    }
+  },
+  {
+    "id": 30,
+    "nombre": "Cabba",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/cabbah.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Universe 6 Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 31,
+    "nombre": "Master Roshi",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/roshih.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Energia", 
+      "zenkai": "Sin zenkai",
+      "saga": "Dragon Ball",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 32,
+    "nombre": "Goku",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/gokuh2.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Saiyan Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 33,
+    "nombre": "Cell (1st Form)",
+    "anio": 2018,
+    "art_cart_url": "./public/assets/multimedia/arts/cellh1.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Android Saga",
+      "raza": "Android"
+    }
+  },
+  {
+    "id": 34,
+    "nombre": "Thouser",
+    "anio": 2019,
+    "art_cart_url": "./public/assets/multimedia/arts/thouserh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Sagas Movies",
+      "raza": "Frieza Force"
+    }
+  },
+  {
+    "id": 35,
+    "nombre": "Cell Jr.",
+    "anio": 2019,
+    "art_cart_url": "./public/assets/multimedia/arts/celljrh.png",
+    "atributos": {
+      "genero": "No tiene",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Android Saga",
+      "raza": "Android"
+    }
+  },
+  {
+    "id": 36,
+    "nombre": "Turles",
+    "anio": 2019,
+    "art_cart_url": "./public/assets/multimedia/arts/turlesh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Sagas Movies",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 37,
+    "nombre": "Super Saiyan Goku",
+    "anio": 2019,
+    "art_cart_url": "./public/assets/multimedia/arts/gokussjh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Saiyan"
+    }
+  },
+  {
+    "id": 38,
+    "nombre": "Krillin",
+    "anio": 2019,
+    "art_cart_url": "./public/assets/multimedia/arts/krillinh2.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Morado",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 39,
+    "nombre": "Cell (2nd Form)",
+    "anio": 2019,
+    "art_cart_url": "./public/assets/multimedia/arts/cellh2.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Energia",
+      "zenkai": "Sin zenkai",
+      "saga": "Android Saga",
+      "raza": "Android"
+    }
+  },
+  {
+    "id": 40,
+    "nombre": "Videl",
+    "anio": 2020,
+    "art_cart_url": "./public/assets/multimedia/arts/videlh.png",
+    "atributos": {
+      "genero": "Mujer",
+      "afinidad": "Rojo",
+      "rareza": "Hero",
+      "estilo": "Defensa",
+      "zenkai": "Sin zenkai",
+      "saga": "Majin Buu Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 41,
+    "nombre": "MR Satan",
+    "anio": 2020,
+    "art_cart_url": "./public/assets/multimedia/arts/satanh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Azul",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Majin Buu Saga",
+      "raza": "Humano"
+    }
+  },
+  {
+    "id": 42,
+    "nombre": "Nail",
+    "anio": 2020,
+    "art_cart_url": "./public/assets/multimedia/arts/nailh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Verde",
+      "rareza": "Hero",
+      "estilo": "Fisico",
+      "zenkai": "Sin zenkai",
+      "saga": "Frieza Saga",
+      "raza": "Namekiano"
+    }
+  },
+  {
+    "id": 43,
+    "nombre": "Tao Pai Pai",
+    "anio": 2020,
+    "art_cart_url": "./public/assets/multimedia/arts/taoh.png",
+    "atributos": {
+      "genero": "Hombre",
+      "afinidad": "Amarillo",
+      "rareza": "Hero",
+      "estilo": "Apoyo",
+      "zenkai": "Sin zenkai",
+      "saga": "Dragon Ball",
+      "raza": "Humano"
+    }
   }
-
 ]
