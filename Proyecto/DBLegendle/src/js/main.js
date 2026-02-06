@@ -5,28 +5,27 @@ const lista = document.getElementById("result");
 
 const intentosVarios = document.getElementById("intentos");
 
-const pruebaDia = {
-    "id": 2,
-    "nombre": "Gohan(Kid)",
-    "anio": 2018,
-    "art_cart_url": "",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan Hibrido"
+let pruebaDia = {};
+
+function seleccionasPerso(){
+    const idMin = 1;
+    const idMax = 44;
+    //temporal ya que algunos en la base de datos no estan definidos del tdo
+    const rango = personajes.filter(p => p.id >= idMin && p.id <= idMax);
+
+    if(personajes.length > 0){
+        const aleatorio = Math.floor(Math.random() * rango.length);        pruebaDia = rango[aleatorio];
+        pruebaDia = rango[aleatorio];
+        console.log("Objetivo del día:", pruebaDia.id);
     }
-
-};
-
+}
 //carga del json, alternativa a hacerlo nativamente
 fetch("./src/data/characters.json")
     .then(res => res.json())//convertir a json al responder
-    .then(data => personajes = data); //guardar datos array local
-
+    .then(data => {
+        personajes = data
+        seleccionasPerso();
+    }); //guardar datos array local
 //al haber algo en el campo de texto se activa
 input.oninput = () =>{
     const text = input.value.toLowerCase().trim();
@@ -49,8 +48,12 @@ function elegir(id){
     compararAtributos(p);
     //alert que avisa que se encontró el personaje del dia
     if (p.id === pruebaDia.id) {
-        
+
         alert("Has ganao");
+        setTimeout(()=>{
+            intentosVarios.innerHTML=""; //limpiar cuando se reinicia
+            seleccionasPerso();
+        }, 1000);
     }
 
     input.value=""; //limpiar
@@ -60,10 +63,10 @@ function elegir(id){
 function compararAtributos(usuario){
     const fila = document.createElement("div");
     fila.className = "flex justify-center gap-2 mb-2"; // gap-2 para que no estén pegados
-    
+
     //imagen personaje del usuario
     let html = `
-        <div class="w-16 h-16 bg-slate-800 border-2 border-slate-700 rounded-md overflow-hidden flex-shrink-0">
+        <div class="w-18 h-18 bg-slate-800 border-2 border-slate-700 rounded-md overflow-hidden flex-shrink-0">
             <img src="${usuario.art_cart_url}" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/150'">
         </div>
     `;
@@ -72,12 +75,11 @@ function compararAtributos(usuario){
     Object.keys(pruebaDia.atributos).forEach(key =>{
         const opcionUsu = usuario.atributos[key];
         const opcionAtri = pruebaDia.atributos[key];
-        
-        // CORRECCIÓN: Tailwind necesita el número (600) para el color
+
         const color = opcionUsu === opcionAtri ? "bg-green-600" : "bg-red-600";
 
         html += `
-        <div class="${color} w-24 h-16 flex items-center justify-center text-center text-[10px] font-bold rounded-md border-2 border-white/10 p-1 text-black uppercase font-['Edo_SZ']">
+        <div class="${color} w-24 h-18 flex items-center justify-center text-center text-[18px] font-bold rounded-md border-2 border-white/10 p-1 text-black uppercase font-['Edo_SZ']">
                 ${opcionUsu} 
             </div>
         `;
@@ -86,6 +88,7 @@ function compararAtributos(usuario){
     //comparar año
     const colorAnio = usuario.anio === pruebaDia.anio ? "bg-green-600" : "bg-red-600";
     const flecha = usuario.anio < pruebaDia.anio ? "↑" : "↓";
+ //   fecha.className="text-[18px]";
     const textoFlecha = usuario.anio === pruebaDia.anio ? "" : flecha;
 
     html += `
@@ -94,7 +97,7 @@ function compararAtributos(usuario){
             <span class="text-xs">${textoFlecha}</span>
         </div>
     `;
-    
+
     fila.innerHTML = html;
     intentosVarios.prepend(fila); //intentos arriba uno de otro
 }

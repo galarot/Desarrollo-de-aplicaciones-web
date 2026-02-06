@@ -4,644 +4,1455 @@
     "nombre": "Goku",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/gokuh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Saiyan" }
   },
   {
     "id": 2,
     "nombre": "Gohan (Kid)",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/gohanh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan Hibrido"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Saiyan Hibrido" }
   },
   {
     "id": 3,
     "nombre": "Krillin",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/krillinh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Humano" }
   },
   {
     "id": 4,
     "nombre": "Raditz",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/raditzh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Saiyan" }
   },
   {
     "id": 5,
     "nombre": "Saibaman",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/saibamanh.png",
-    "atributos": {
-      "genero": "No tiene",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Minion"
-    }
+    "atributos": { "genero": "No tiene", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Minion" }
   },
   {
     "id": 6,
     "nombre": "Nappa",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/nappah.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Saiyan" }
   },
   {
     "id": 7,
     "nombre": "Vegeta",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/vegetah.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Saiyan" }
   },
   {
     "id": 8,
     "nombre": "Zarbon",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/zarbonh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Frieza Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Frieza Force" }
   },
   {
     "id": 9,
     "nombre": "Dodoria",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/dodoriah.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Frieza Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Frieza Force" }
   },
   {
     "id": 10,
     "nombre": "Guldo",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/guldoh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Ginyu Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
   },
   {
     "id": 11,
     "nombre": "Burter",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/burterh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Ginyu Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
   },
   {
     "id": 12,
     "nombre": "Recoome",
     "anio": 2018,
-    "art_cart_url": "./public/assets/multimedia/arts/recoomeh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Ginyu Force"
-    }
+    "art_cart_url": "./public/assets/multimedia/arts/recomeh.png",
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
   },
   {
     "id": 13,
     "nombre": "Jeice",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/jeiceh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Ginyu Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
   },
   {
     "id": 14,
     "nombre": "Captain Ginyu",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/ginyuh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Ginyu Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
   },
   {
     "id": 15,
     "nombre": "Frieza (1st Form)",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/freezerh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Lineage of Evil"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
   },
   {
     "id": 16,
     "nombre": "Frieza (2nd Form)",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/freezerh2.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Lineage of Evil"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
   },
   {
     "id": 17,
     "nombre": "Pikkon",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/pikkonh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Sagas Movies",
-      "raza": "Otro"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Sagas Movies", "raza": "Otro" }
   },
   {
     "id": 18,
     "nombre": "Jaco",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/jacoh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Golden Frieza Saga",
-      "raza": "Galactic Patrol"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Golden Frieza Saga", "raza": "Galactic Patrol" }
   },
   {
     "id": 19,
     "nombre": "Pan",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/panh.png",
-    "atributos": {
-      "genero": "Mujer",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "GT Saga",
-      "raza": "Saiyan Hibrido"
-    }
+    "atributos": { "genero": "Mujer", "afinidad": "Verde", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "GT Saga", "raza": "Saiyan Hibrido" }
   },
   {
     "id": 20,
     "nombre": "Piccolo (Fused with Nail)",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/piccoloh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Namekiano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Namekiano" }
   },
   {
     "id": 21,
     "nombre": "Yamcha",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/yamchah.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Humano" }
   },
   {
     "id": 22,
     "nombre": "Tien",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/tienh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Humano" }
   },
   {
     "id": 23,
     "nombre": "Chiaotzu",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/chaozh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Humano" }
   },
   {
     "id": 24,
     "nombre": "Frost (Final Form)",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/frosth.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Universe 6 Saga",
-      "raza": "Lineage of Evil"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Universe 6 Saga", "raza": "Lineage of Evil" }
   },
   {
     "id": 25,
     "nombre": "Android #20",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/20h.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Android Saga",
-      "raza": "Android"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Android" }
   },
   {
     "id": 26,
     "nombre": "Android #19",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/19h.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Android Saga",
-      "raza": "Android"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Android" }
   },
   {
     "id": 27,
     "nombre": "Yamcha",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/yamchah2.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Humano" }
   },
   {
     "id": 28,
     "nombre": "Saibaman",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/saibamanh2.png",
-    "atributos": {
-      "genero": "No tiene",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Minion"
-    }
+    "atributos": { "genero": "No tiene", "afinidad": "Morado", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Minion" }
   },
   {
     "id": 29,
     "nombre": "Jaco",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/jacoh2.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Galactic Patrol"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Golden Frieza Saga", "raza": "Galactic Patrol" }
   },
   {
     "id": 30,
     "nombre": "Cabba",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/cabbah.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Universe 6 Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Universe 6 Saga", "raza": "Saiyan" }
   },
   {
     "id": 31,
     "nombre": "Master Roshi",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/roshih.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Energia", 
-      "zenkai": "Sin zenkai",
-      "saga": "Dragon Ball",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Dragon Ball", "raza": "Humano" }
   },
   {
     "id": 32,
     "nombre": "Goku",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/gokuh2.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Saiyan Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Saiyan" }
   },
   {
     "id": 33,
     "nombre": "Cell (1st Form)",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/cellh1.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Android Saga",
-      "raza": "Android"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Cell Saga", "raza": "Android" }
   },
   {
     "id": 34,
     "nombre": "Thouser",
     "anio": 2019,
     "art_cart_url": "./public/assets/multimedia/arts/thouserh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Sagas Movies",
-      "raza": "Frieza Force"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Sagas Movies", "raza": "Frieza Force" }
   },
   {
     "id": 35,
     "nombre": "Cell Jr.",
     "anio": 2019,
     "art_cart_url": "./public/assets/multimedia/arts/celljrh.png",
-    "atributos": {
-      "genero": "No tiene",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Android Saga",
-      "raza": "Android"
-    }
+    "atributos": { "genero": "No tiene", "afinidad": "Azul", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Android" }
   },
   {
     "id": 36,
     "nombre": "Turles",
     "anio": 2019,
     "art_cart_url": "./public/assets/multimedia/arts/turlesh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Sagas Movies",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Sagas Movies", "raza": "Saiyan" }
   },
   {
     "id": 37,
     "nombre": "Super Saiyan Goku",
     "anio": 2019,
     "art_cart_url": "./public/assets/multimedia/arts/gokussjh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Saiyan"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Cell Saga", "raza": "Saiyan" }
   },
   {
     "id": 38,
     "nombre": "Krillin",
     "anio": 2019,
     "art_cart_url": "./public/assets/multimedia/arts/krillinh2.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Morado",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Cell Saga", "raza": "Humano" }
   },
   {
     "id": 39,
     "nombre": "Cell (2nd Form)",
     "anio": 2019,
     "art_cart_url": "./public/assets/multimedia/arts/cellh2.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Energia",
-      "zenkai": "Sin zenkai",
-      "saga": "Android Saga",
-      "raza": "Android"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Cell Saga", "raza": "Android" }
   },
   {
     "id": 40,
     "nombre": "Videl",
     "anio": 2020,
     "art_cart_url": "./public/assets/multimedia/arts/videlh.png",
-    "atributos": {
-      "genero": "Mujer",
-      "afinidad": "Rojo",
-      "rareza": "Hero",
-      "estilo": "Defensa",
-      "zenkai": "Sin zenkai",
-      "saga": "Majin Buu Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Mujer", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Majin Buu Saga", "raza": "Humano" }
   },
   {
     "id": 41,
     "nombre": "MR Satan",
     "anio": 2020,
     "art_cart_url": "./public/assets/multimedia/arts/satanh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Azul",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Majin Buu Saga",
-      "raza": "Humano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Majin Buu Saga", "raza": "Humano" }
   },
   {
     "id": 42,
     "nombre": "Nail",
     "anio": 2020,
     "art_cart_url": "./public/assets/multimedia/arts/nailh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Verde",
-      "rareza": "Hero",
-      "estilo": "Fisico",
-      "zenkai": "Sin zenkai",
-      "saga": "Frieza Saga",
-      "raza": "Namekiano"
-    }
+    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Namekiano" }
   },
   {
     "id": 43,
     "nombre": "Tao Pai Pai",
     "anio": 2020,
     "art_cart_url": "./public/assets/multimedia/arts/taoh.png",
-    "atributos": {
-      "genero": "Hombre",
-      "afinidad": "Amarillo",
-      "rareza": "Hero",
-      "estilo": "Apoyo",
-      "zenkai": "Sin zenkai",
-      "saga": "Dragon Ball",
-      "raza": "Humano"
+    "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Hero", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Dragon Ball", "raza": "Humano" }
+  },
+    {
+      "id": 44,
+      "nombre": "Goku",
+      "anio": 2018,
+      "art_cart_url": "./public/assets/multimedia/arts/gokuex.png",
+      "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Extreme", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Saiyan" }
+    },
+    {
+      "id": 45,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 46,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 47,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 48,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 49,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 50,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 51,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 52,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 53,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 54,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 55,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 56,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 57,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 58,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 59,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 60,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 61,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 62,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 63,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 64,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 65,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 66,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 67,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 68,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 69,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 70,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 71,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 72,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 73,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 74,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 75,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 76,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 77,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 78,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 79,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 80,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 81,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 82,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 83,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 84,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 85,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 86,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 87,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 88,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 89,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 90,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 91,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 92,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 93,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 94,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 95,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 96,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 97,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 98,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 99,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 100,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 101,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 102,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 103,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 104,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 105,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 106,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 107,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 108,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 109,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 110,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 111,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 112,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 113,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 114,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 115,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 116,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 117,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 118,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 119,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 120,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 121,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 122,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 123,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 124,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 125,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 126,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 127,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 128,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 129,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 130,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 131,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 132,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 133,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 134,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 135,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 136,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 137,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 138,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "","raza": "" }
+    },
+    {
+      "id": 139,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 140,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 141,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 142,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 143,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 144,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 145,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 146,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 147,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 148,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 149,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 150,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 151,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 152,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 153,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 154,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 155,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 156,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 157,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 158,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 159,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 160,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 161,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 162,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 163,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 164,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 165,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 166,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 167,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 168,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 169,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 170,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 171,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 172,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 173,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 174,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 175,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 176,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 177,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 178,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 179,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 180,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 181,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 182,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 183,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 184,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 185,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 186,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 187,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 188,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 189,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 190,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 191,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 192,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 193,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 194,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 195,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 196,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 197,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 198,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 199,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 200,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 201,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 202,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 203,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 204,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 205,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 206,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 207,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+    },
+    {
+      "id": 208,
+      "nombre": "",
+      "anio": null,
+      "art_cart_url": "./public/assets/multimedia/arts/.png",
+      "atributos": { "genero": "", "afinidad": "", "rareza": "Extreme", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
     }
-  }
 ]
