@@ -1,40 +1,46 @@
 let personajes = [];
+//prsonajes ya usados
+let elegidosEnRonda = new Set(); 
 
 const input = document.getElementById("busqueda");
 const lista = document.getElementById("result");
-
 const intentosVarios = document.getElementById("intentos");
 
 let pruebaDia = {};
 
 function seleccionasPerso(){
     const idMin = 1;
-    const idMax = 71;
+    const idMax = 109;
     //temporal ya que algunos en la base de datos no estan definidos del tdo
     const rango = personajes.filter(p => p.id >= idMin && p.id <= idMax);
 
     if(personajes.length > 0){
-        const aleatorio = Math.floor(Math.random() * rango.length);        pruebaDia = rango[aleatorio];
+        const aleatorio = Math.floor(Math.random() * rango.length);
         pruebaDia = rango[aleatorio];
         console.log("Objetivo del día:", pruebaDia.id);
     }
 }
+
 //carga del json, alternativa a hacerlo nativamente
 fetch("./src/data/characters.json")
-    .then(res => res.json())//convertir a json al responder
+    .then(res => res.json()) //convertir a json al responder
     .then(data => {
-        personajes = data
+        personajes = data;
         seleccionasPerso();
     }); //guardar datos array local
+
 //al haber algo en el campo de texto se activa
-input.oninput = () =>{
+input.oninput = () => {
     const text = input.value.toLowerCase().trim();
     lista.classList.toggle("hidden", !text); //muestra y ocuylta si hay texto
 
     if(!text) return; //volver si no hay texto
 
     lista.innerHTML = personajes
-        .filter(p => p.nombre.toLowerCase().includes(text)) //filtrsar por texto escrito
+        .filter(p => 
+            p.nombre.toLowerCase().includes(text) && 
+            !elegidosEnRonda.has(p.id) // no mostrar los ya elegidos
+        ) 
         .map(p => `
             <div onclick="elegir(${p.id})" class="flex items-center p-3 hover:bg-orange-600/20 cursor-pointer border-b border-white/10 text-white font-['Edo_SZ']">
                 <img src="${p.art_cart_url}" class="w-10 h-10 rounded-full border border-orange-500 mr-3">
@@ -45,13 +51,17 @@ input.oninput = () =>{
 
 function elegir(id){
     const p = personajes.find(pers => pers.id === id); //buscar personaje por id
+    
+    elegidosEnRonda.add(id);
+
     compararAtributos(p);
+    
     //alert que avisa que se encontró el personaje del dia
     if (p.id === pruebaDia.id) {
-
         alert("Has ganao");
         setTimeout(()=>{
             intentosVarios.innerHTML=""; //limpiar cuando se reinicia
+            elegidosEnRonda.clear(); // Limpiar la lista de descartados para la nueva partida
             seleccionasPerso();
         }, 1000);
     }
@@ -62,7 +72,7 @@ function elegir(id){
 
 function compararAtributos(usuario){
     const fila = document.createElement("div");
-    fila.className = "flex justify-center gap-2 mb-2"; // gap-2 para que no estén pegados
+    fila.className = "flex justify-center gap-2 mb-2"; 
 
     //imagen personaje del usuario
     let html = `
@@ -88,7 +98,7 @@ function compararAtributos(usuario){
     //comparar año
     const colorAnio = usuario.anio === pruebaDia.anio ? "bg-green-600" : "bg-red-600";
     const flecha = usuario.anio < pruebaDia.anio ? "↑" : "↓";
- //   fecha.className="text-[18px]";
+    // fecha.className="text-[18px]";
     const textoFlecha = usuario.anio === pruebaDia.anio ? "" : flecha;
 
     html += `
