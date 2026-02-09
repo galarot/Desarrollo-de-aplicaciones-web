@@ -123,7 +123,7 @@
     "nombre": "Jaco",
     "anio": 2018,
     "art_cart_url": "./public/assets/multimedia/arts/jacoh.png",
-    "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Golden Frieza Saga", "raza": "Galactic Patrol" }
+    "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Hero", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Golden Frieza Saga", "raza": "Galactic Patrol" }
   },
   {
     "id": 19,

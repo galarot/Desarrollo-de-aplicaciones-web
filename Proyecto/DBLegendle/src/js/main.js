@@ -23,11 +23,14 @@ function seleccionasPerso(){
 
 //carga del json, alternativa a hacerlo nativamente
 fetch("./src/data/characters.json")
-    .then(res => res.json()) //convertir a json al responder
+    .then(response => response.json()) //convertir a json al responder
     .then(data => {
         personajes = data;
         seleccionasPerso();
-    }); //guardar datos array local
+    }) //guardar datos array local
+    .catch(error =>{
+        console.error(error);
+    });
 
 //al haber algo en el campo de texto se activa
 input.oninput = () => {
@@ -63,7 +66,7 @@ function elegir(id){
             intentosVarios.innerHTML=""; //limpiar cuando se reinicia
             elegidosEnRonda.clear(); // Limpiar la lista de descartados para la nueva partida
             seleccionasPerso();
-        }, 1000);
+        }, 2000);
     }
 
     input.value=""; //limpiar
