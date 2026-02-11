@@ -1,41 +1,58 @@
 import os
 from PIL import Image
+import re
+
+def obtener_siguiente_numero(directorio, nombre_base):
+    """
+    Busca en la carpeta el número más alto para un nombre base (ej. 'gokusp')
+    y devuelve el siguiente.
+    """
+    max_num = 0
+    # Listamos todos los archivos en la carpeta
+    for archivo in os.listdir(directorio):
+        if archivo.startswith(nombre_base) and archivo.endswith(".png"):
+            # Extraemos los números después del nombre base (ej. 'gokusp4' -> '4')
+            # Si el archivo es solo 'gokusp.png', el número es 1
+            match = re.search(rf"{nombre_base}(\d+)\.png$", archivo)
+            if match:
+                num = int(match.group(1))
+                if num > max_num:
+                    max_num = num
+            elif archivo == f"{nombre_base}.png":
+                if max_num < 1:
+                    max_num = 1
+    
+    return max_num + 1
 
 def procesar_mismo_directorio(directorio):
     extensiones_validas = ['.webp', '.web']
-    conteo_personajes = {}
-
-    print(f"Limpieza nombre comenzada")
+    print(f"Limpieza nombre comenzada en: {directorio}")
 
     archivos = [f for f in os.listdir(directorio) if os.path.splitext(f)[1].lower() in extensiones_validas]
 
     for archivo in archivos:
         nombre_completo, extension = os.path.splitext(archivo)
         
-        # --- NUEVA LÓGICA DE LIMPIEZA ---
-        # 1. Separamos por guion bajo: ['BChaIco', '0005', 'Krillin', '01']
+        # 1. Limpieza por guiones bajos
         partes = nombre_completo.split('_')
-        
-        # 2. Si tiene varias partes, el nombre suele ser la tercera (índice 2)
-        # Si no tiene ese formato, usamos el nombre completo por seguridad
         if len(partes) >= 3:
             nombre_personaje = partes[2].lower().strip()
         else:
             nombre_personaje = nombre_completo.lower().strip()
         
-        # 3. Limpiar cualquier número o símbolo que haya quedado en esa parte específica
-        nombre_base = "".join(filter(str.isalpha, nombre_personaje))
+        # 2. Solo letras (ej. 'goku')
+        nombre_limpio = "".join(filter(str.isalpha, nombre_personaje))
+        nombre_base_sp = f"{nombre_limpio}sp"
         
-        # 4. Forzar el sufijo 'ex'
-        identificador_ex = f"{nombre_base}ex"
+        # 3. NUEVA LÓGICA: Consultar qué números ya existen en la carpeta
+        siguiente_num = obtener_siguiente_numero(directorio, nombre_base_sp)
         
-        # 5. Lógica de numeración para duplicados
-        if identificador_ex not in conteo_personajes:
-            conteo_personajes[identificador_ex] = 1
-            nombre_final = identificador_ex
+        # Si es el primero, lo dejamos como gokusp.png, si no, gokusp2.png...
+        # (O si prefieres que el primero sea gokusp1, quita el 'if')
+        if siguiente_num == 1:
+            nombre_final = nombre_base_sp
         else:
-            conteo_personajes[identificador_ex] += 1
-            nombre_final = f"{identificador_ex}{conteo_personajes[identificador_ex]}"
+            nombre_final = f"{nombre_base_sp}{siguiente_num}"
 
         ruta_entrada = os.path.join(directorio, archivo)
         ruta_salida = os.path.join(directorio, f"{nombre_final}.png")
@@ -52,6 +69,6 @@ def procesar_mismo_directorio(directorio):
 
     print(f"\nFIN")
 
-# --- RUTA ---
-ruta_arts = r""
+# --- RUTA PARA TU LINUX ---
+ruta_arts = "/home/usua5pc17/Escritorio/DAW/Proyecto/imagenestemp"
 procesar_mismo_directorio(ruta_arts)

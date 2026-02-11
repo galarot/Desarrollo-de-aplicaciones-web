@@ -108,7 +108,7 @@ function mostrarTabla(){
         const titulo = document.createElement("h2");
         titulo.textContent = columna.nombre + " " + columna.maxs + " TM";
         titulo.className = "titu"
-
+        
         // tareas
         const lista = document.createElement("div");
         lista.className = "contenedor";
