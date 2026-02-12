@@ -10,7 +10,7 @@ let pruebaDia = {};
 
 function seleccionasPerso(){
     const idMin = 1;
-    const idMax = 248;
+    const idMax = 264;
     //temporal ya que algunos en la base de datos no estan definidos del tdo
     const rango = personajes.filter(p => p.id >= idMin && p.id <= idMax);
 

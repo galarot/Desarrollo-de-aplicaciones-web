@@ -1696,7 +1696,7 @@
       {
         "id": 243,
         "nombre": "Gohan (Kid)",
-        "anio": 2024,
+        "anio": 2025,
         "art_cart_url": "./public/assets/multimedia/arts/gohankidsp2.png",
         "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Saiyan Saga", "raza": "Saiyan Hibrido" }
       },
@@ -1737,115 +1737,115 @@
       },
       {
         "id": 249,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Burter & Jeice",
+        "anio": 2023,
+        "art_cart_url": "./public/assets/multimedia/arts/burtersp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Azul/Rojo", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
       },
       {
         "id": 250,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Recoome & Guldo",
+        "anio": 2023,
+        "art_cart_url": "./public/assets/multimedia/arts/guldosp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo/Verde", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
       },
       {
         "id": 251,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Captain Ginyu",
+        "anio": 2023,
+        "art_cart_url": "./public/assets/multimedia/arts/ginyugokusp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
       },
       {
         "id": 252,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Captain Ginyu",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/ginyusp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
       },
       {
         "id": 253,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Frieza Final Form",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/friezathsp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 254,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Frieza Full Power",
+        "anio": 2019,
+        "art_cart_url": "./public/assets/multimedia/arts/friezafpsp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 255,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Frieza Final Form",
+        "anio": 2022,
+        "art_cart_url": "./public/assets/multimedia/arts/friezathtailcutsp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 256,
-        "nombre": "",
+        "nombre": "Frieza Final Form",
         "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "art_cart_url": "./public/assets/multimedia/arts/friezathsp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 257,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Frieza (3rd Form)",
+        "anio": 2025,
+        "art_cart_url": "./public/assets/multimedia/arts/friezardsp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 258,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Captain Ginyu",
+        "anio": 2019,
+        "art_cart_url": "./public/assets/multimedia/arts/ginyugokusp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Ginyu Force" }
       },
       {
         "id": 259,
-        "nombre": "",
+        "nombre": "Goku",
         "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "art_cart_url": "./public/assets/multimedia/arts/gokusp6.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Zenkai", "saga": "Frieza Saga", "raza": "Saiyan" }
       },
       {
         "id": 260,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Goku",
+        "anio": 2023,
+        "art_cart_url": "./public/assets/multimedia/arts/gokusp7.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Saiyan" }
       },
       {
         "id": 261,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Goku Kaioken",
+        "anio": 2022,
+        "art_cart_url": "./public/assets/multimedia/arts/gokukaiousp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Zenkai", "saga": "Frieza Saga", "raza": "Saiyan" }
       },
       {
         "id": 262,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Goku",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/gokusssp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Zenkai", "saga": "Frieza Saga", "raza": "Saiyan" }
       },
       {
         "id": 263,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Goku",
+        "anio": 2021,
+        "art_cart_url": "./public/assets/multimedia/arts/gokusssp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Saiyan" }
       },
       {
         "id": 264,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Krillin",
+        "anio": 2025,
+        "art_cart_url": "./public/assets/multimedia/arts/krillinsp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Frieza Saga", "raza": "Humano" }
       },
       {
         "id": 265,
