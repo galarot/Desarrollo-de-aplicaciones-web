@@ -3,68 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwindcss</title>
+    <title>Coraline</title>
     <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Creepster&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
         .imgs {
-        animation: fade 9s infinite;
-        position: absolute;
-        opacity: 0;
+            animation: fade 9s infinite;
+            position: absolute;
+            opacity: 0;
         }
         .imgs:nth-child(1) { animation-delay: 0s; }
         .imgs:nth-child(2) { animation-delay: 3s; }
         .imgs:nth-child(3) { animation-delay: 6s; }
+        
+
+        .imgs1 {
+            animation: fade2 6s infinite;
+            position: absolute;
+            opacity: 0;
+        }
+        .imgs1:nth-child(1) { animation-delay: 0s; }
+        .imgs1:nth-child(2) { animation-delay: 3s; }
+
+        @keyframes fade2 {
+            0%   { opacity: 0; }
+            10%  { opacity: 1; }
+            50%  { opacity: 1; }
+            65%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
         @keyframes fade {
-        0%   { opacity: 0; }
-        10%  { opacity: 1; }
-        33%  { opacity: 1; }
-        43%  { opacity: 0; }
-        100% { opacity: 0; }
+            0%   { opacity: 0; }
+            10%  { opacity: 1; }
+            33%  { opacity: 1; }
+            43%  { opacity: 0; }
+            100% { opacity: 0; }
         }
 
         @theme {
             --font-coraline: "Almendra Display", serif;
             --font-spooky: "Creepster", system-ui;
         }
-        </style>
+
+        .animate-reveal {
+            opacity: 0;
+            animation: reveal 1.5s ease-out forwards;
+        }
+
+        @keyframes reveal {
+            0% {
+                opacity: 0;
+                filter: blur(10px);
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
-<body class="bg-black">
-    <header class="bg-[url(multi/fondoCoraline.jpg)] bg-cover bg-center bg-no-repeat h-screen flex flex-col items-center">
-    
-    <nav class="flex flex-row items-center justify-between px-10 pt-5 w-full">
-        <div>
-            <a href="">
-                <img class="w-35" src="multi/laikalogo.png">
-            </a>
-        </div>
+<body class="bg-black overflow-x-hidden">
+    <header class="relative bg-[url(multi/fondoCoraline.jpg)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center">
         
-        <div class="flex gap-6 text-white">
-            <a href="" class="hover:text-gray-400">Inicio</a>
-            <a href="" class="hover:text-gray-400">Animación</a>
-            <a href="" class="hover:text-gray-400">Tienda</a>
-        </div>
-    </nav>
-    
-    <div class="flex flex-1 items-center justify-center">
-        <img class="w-220" src="multi/coraLogo.webp" alt="Coraline Logo">
-    </div>
-
-</header>
-    <main class="bg-[url(multi/hojanegra.png)] bg-cover bg-center bg-no-repeat h-screen">
-        <section class="flex flex-col items-center pt-15">
-            <h1 class="font-coraline text-5xl text-white pb-5 font-bold">Una de las mejores obras creadas con stop-motion</h1>
-            <div class="flex flex-1 items-center justify-center pt-70">
-                <img class="imgs w-200 h-120" src="multi/evo.png" alt="">
-                <img class="imgs w-200 h-120" src="multi/evo1.png" alt="">
-                <img class="imgs w-200 h-120" src="multi/evo2.png" alt="">
-
+        <nav class="flex flex-col md:flex-row items-center justify-between px-6 md:px-10 pt-5 w-full gap-4 z-20">
+            <div>
+                <a href="#">
+                    <img class="w-24 md:w-35" src="multi/laikalogo.png" alt="Laika Logo">
+                </a>
             </div>
             
+            <div class="flex gap-6 text-white text-sm md:text-base font-semibold tracking-widest uppercase">
+                <a href="#" class="hover:text-gray-400 transition-colors">Inicio</a>
+                <a href="#" class="hover:text-gray-400 transition-colors">Animación</a>
+                <a href="#" class="hover:text-gray-400 transition-colors">Tienda</a>
+            </div>
+        </nav>
+        
+        <div class="flex flex-1 items-center justify-center p-4">
+            <img class="w-full max-w-[300px] md:max-w-[800px] drop-shadow-2xl" src="multi/coraLogo.webp" alt="Coraline Logo">
+        </div>
+
+        <div class="absolute -bottom-4 md:-bottom-10 left-0 w-full overflow-hidden z-10 pointer-events-none">
+            <div class="flex flex-row justify-center items-center w-full">
+                <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover" alt="botones divisores">
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-black">
+        <section class="relative bg-[url(multi/hojanegra.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center pt-16 md:pt-24 px-4 pb-32 -mt-[1px]">
+            
+            <h1 class="font-coraline text-3xl md:text-5xl text-white pb-5 font-bold animate-reveal text-center max-w-4xl">
+                Una de las mejores obras creadas con stop-motion
+            </h1>
+            <div class="flex flex-row items-center justify-between w-full px-2 md:px-10 gap-2">
+                <img class="w-24 md:w-60 lg:w-80 object-contain animate-reveal" 
+                    src="multi/coraline1.png" alt="Coraline Izquierda">
+                
+                <div class="relative w-full max-w-[800px] h-60 md:h-120 flex items-center justify-center overflow-hidden rounded-lg">
+                    <img class="imgs w-full h-full object-cover" src="multi/evo.png" alt="Evolution 1">
+                    <img class="imgs w-full h-full" alt="Evolution 3">
+                </div>
+
+                <img class="w-24 md:w-60 lg:w-80 object-contain animate-reveal" 
+                    src="multi/coraline2.png" alt="Coraline Derecha" style="animation-delay: 0.2s;">
+            </div>
+            
+
+            <div class="pt-10 px-4">
+                <p class="text-center font-coraline text-lg md:text-3xl text-white font-bold w-full max-w-[800px] animate-reveal leading-relaxed" style="animation-delay: 0.5s;">
+                    Una obra maestra de la animación stop-motion, destacada por ser el primer largometraje diseñado en 3D estereoscópico. 
+                    Dirigida por Henry Selick, requirió 18 meses de rodaje, 130 sets distintos y el uso de impresoras 3D para crear miles de expresiones faciales en marionetas. 
+                </p>
+            </div>
+
+            <div class="absolute -bottom-8 md:-bottom-20 left-0 w-full overflow-hidden z-20 pointer-events-none">
+                <div class="flex flex-row justify-center items-center w-full">
+                    <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover" alt="botones divisores">
+                </div>
+            </div>
+        </section>
+
+        <section class="relative bg-[url(multi/hojablanca.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center pt-16 md:pt-24 px-4 pb-32 -mt-[1px]">
+            <h2 class="font-coraline text-4xl md:text-6xl text-black mb-16 font-bold animate-reveal text-center drop-shadow-sm">
+                Conoce a los personajes
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-8 w-full max-w-6xl">
+                
+                <div class="md:col-span-2 flex flex-col items-center group">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/corachara.png" alt="Coraline">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/corabtn.png" alt="Coraline Botón">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold tracking-wide">Coraline</h3>
+                </div>
+
+                <div class="md:col-span-2 flex flex-col items-center group">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/wybiechara.png" alt="Wybie">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/wybiebtn.png" alt="Wybie Botón">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold tracking-wide">Wybie</h3>
+                </div>
+
+                <div class="md:col-span-2 flex flex-col items-center group">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2">
+                        <img class="w-full h-full object-contain" src="multi/cat.png" alt="Gato">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold tracking-wide">Gato</h3>
+                </div>
+
+                <div class="md:col-span-2 md:col-start-2 flex flex-col items-center group mt-8">                                                                                                                                                                                         
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/fatherchara.png" alt="Padre">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/fatherbtn.png" alt="Padre Botón">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold tracking-wide">Padre</h3>
+                </div>
+
+                <div class="md:col-span-2 flex flex-col items-center group mt-8">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/motherchara.png" alt="Madre">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/coraline2.png" alt="Madre Botón">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold tracking-wide">Madre</h3>
+                </div>
+            </div>
+            <div class="absolute -bottom-8 md:-bottom-20 left-0 w-full overflow-hidden z-20 pointer-events-none">
+                <div class="flex flex-row justify-center items-center w-full">
+                    <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover" alt="botones divisores">
+                </div>
+            </div>
+        </section >
+
+        <section class="relative bg-[url(multi/tunel.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 px-4 pb-32 -mt-[1px] overflow-hidden">
+            <img class="w-220 max-w-[600px] transition-transform duration-700 ease-out hover:scale-220 cursor-pointer" 
+                src="multi/coralinetunel.png">
         </section>
     </main>
-    <footer>
 
-    </footer>
+    <footer>
+    </footer>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 </body>
 </html>
