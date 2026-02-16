@@ -1849,122 +1849,122 @@
       },
       {
         "id": 265,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Goku",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/gokusssp3.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Saiyan" }
       },
       {
         "id": 266,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Vegeta",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/vegetasssp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Saiyan" }
       },
       {
         "id": 267,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Trunks",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/trunkssssp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Rojo", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Zenkai", "saga": "Android Saga", "raza": "Saiyan Hibrido" }
       },
       {
         "id": 268,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Goku",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/gokusssp4.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Saiyan" }
       },
       {
         "id": 269,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Krillin",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/krillinsp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Humano" }
       },
       {
         "id": 270,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Android #17",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/androidsp4.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Zenkai", "saga": "Android Saga", "raza": "Android" }
       },
       {
         "id": 271,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Android #18",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/androidsp.png",
+        "atributos": { "genero": "Mujer", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Zenkai", "saga": "Android Saga", "raza": "Android" }
       },
       {
         "id": 272,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Android #16",
+        "anio": 2018,
+        "art_cart_url": "./public/assets/multimedia/arts/androidsp3.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Sparking", "estilo": "Defensa", "zenkai": "Zenkai", "saga": "Android Saga", "raza": "Android" }
       },
       {
         "id": 273,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Gohan",
+        "anio": 2019,
+        "art_cart_url": "./public/assets/multimedia/arts/gohanfsssp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Saiyan Hibrido" }
       },
       {
         "id": 274,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Trunks",
+        "anio": 2019,
+        "art_cart_url": "./public/assets/multimedia/arts/trunkstfsssp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Zenkai", "saga": "Android Saga", "raza": "Saiyan Hibrido" }
       },
       {
         "id": 275,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Gohan",
+        "anio": 2019,
+        "art_cart_url": "./public/assets/multimedia/arts/gohanfuturesssp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Verde", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Zenkai", "saga": "Android Saga", "raza": "Saiyan Hibrido" }
       },
       {
         "id": 276,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Android #18",
+        "anio": 2022,
+        "art_cart_url": "./public/assets/multimedia/arts/androidsp5.png",
+        "atributos": { "genero": "Mujer", "afinidad": "Verde", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Android" }
       },
       {
         "id": 277,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Super Saiyan Trunks",
+        "anio": 2022,
+        "art_cart_url": "./public/assets/multimedia/arts/trunkssssp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Saiyan Hibrido" }
       },
       {
         "id": 278,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Mecha Frieza",
+        "anio": 2022,
+        "art_cart_url": "./public/assets/multimedia/arts/friezamechasp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 279,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Android #18",
+        "anio": 2025,
+        "art_cart_url": "./public/assets/multimedia/arts/androidsp6.png",
+        "atributos": { "genero": "Mujer", "afinidad": "Amarillo", "rareza": "Sparking", "estilo": "Apoyo", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Android" }
       },
       {
         "id": 280,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "Android #17",
+        "anio": 2025,
+        "art_cart_url": "./public/assets/multimedia/arts/androidsp2.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Morado", "rareza": "Sparking", "estilo": "Energia", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Android" }
       },
       {
         "id": 281,
-        "nombre": "",
-        "anio": 2024,
-        "art_cart_url": "./public/assets/multimedia/arts/.png",
-        "atributos": { "genero": "", "afinidad": "", "rareza": "Sparking", "estilo": "", "zenkai": "", "saga": "", "raza": "" }
+        "nombre": "King Cold",
+        "anio": 2025,
+        "art_cart_url": "./public/assets/multimedia/arts/coldsp.png",
+        "atributos": { "genero": "Hombre", "afinidad": "Azul", "rareza": "Sparking", "estilo": "Fisico", "zenkai": "Sin zenkai", "saga": "Android Saga", "raza": "Lineage of Evil" }
       },
       {
         "id": 282,
