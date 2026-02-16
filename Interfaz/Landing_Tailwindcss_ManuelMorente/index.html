@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coraline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Creepster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        .imgs {
+            animation: fade 9s infinite;
+            position: absolute;
+            opacity: 0;
+        }
+        .imgs:nth-child(1) { animation-delay: 0s; }
+        .imgs:nth-child(2) { animation-delay: 3s; }
+        .imgs:nth-child(3) { animation-delay: 6s; }
+        
+        .imgs1 {
+            animation: fade2 6s infinite;
+            position: absolute;
+            opacity: 0;
+        }
+        .imgs1:nth-child(1) { animation-delay: 0s; }
+        .imgs1:nth-child(2) { animation-delay: 3s; }
+
+        @keyframes fade2 {
+            0%   { opacity: 0; }
+            10%  { opacity: 1; }
+            50%  { opacity: 1; }
+            65%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        @keyframes fade {
+            0%   { opacity: 0; }
+            10%  { opacity: 1; }
+            33%  { opacity: 1; }
+            43%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        @theme {
+            --font-coraline: "Almendra Display", serif;
+            --font-spooky: "Creepster", system-ui;
+        }
+
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .animate-reveal {
+            opacity: 1 !important;
+            filter: blur(0);
+            transform: translateY(0) !important;
+            animation: reveal 1.5s ease-out forwards;
+        }
+
+        @keyframes reveal {
+            0% {
+                opacity: 0;
+                filter: blur(10px);
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-black overflow-x-hidden">
+    <header class="relative z-50 bg-[url(multi/fondoCoraline.jpg)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center">
+        <nav class="flex flex-col md:flex-row items-center justify-between px-6 md:px-10 pt-5 w-full gap-4 z-20">
+            <div>
+                <a href="#"><img class="w-24 md:w-35" src="multi/laikalogo.png" alt="Laika Logo"></a>
+            </div>
+            <div class="flex gap-6 text-white text-sm md:text-base font-semibold tracking-widest uppercase">
+                <a href="#" class="hover:text-gray-400 transition-colors">Inicio</a>
+                <a href="#" class="hover:text-gray-400 transition-colors">Animación</a>
+                <a href="#" class="hover:text-gray-400 transition-colors">Tienda</a>
+            </div>
+        </nav>
+        
+        <div class="flex flex-1 items-center justify-center p-4">
+            <img class="w-full max-w-[300px] md:max-w-[800px] drop-shadow-2xl reveal-on-scroll" src="multi/coraLogo.webp" alt="Coraline Logo">
+        </div>
+
+        <div class="absolute -bottom-4 md:-bottom-10 left-0 w-full overflow-hidden z-10 pointer-events-none">
+            <div class="flex flex-row justify-center items-center w-full">
+                <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover" alt="botones divisores">
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-black">
+        <section class="relative z-40 bg-[url(multi/hojanegra.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center pt-16 md:pt-24 px-4 pb-32 -mt-[1px]">
+            <h1 class="font-coraline text-3xl md:text-5xl text-white pb-5 font-bold text-center max-w-4xl reveal-on-scroll">
+                Una de las mejores obras creadas con stop-motion
+            </h1>
+            <div class="flex flex-row items-center justify-between w-full px-2 md:px-10 gap-2">
+                <img class="w-24 md:w-60 lg:w-80 object-contain reveal-on-scroll" src="multi/coraline1.png" alt="Coraline Izquierda">
+                <div class="relative w-full max-w-[800px] h-60 md:h-120 flex items-center justify-center overflow-hidden rounded-lg reveal-on-scroll">
+                    <img class="imgs w-full h-full object-cover" src="multi/evo.png">
+                    <img class="imgs w-full h-full object-cover" src="multi/evo1.png">
+                    <img class="imgs w-full h-full object-cover" src="multi/evo2.png">
+                </div>
+                <img class="w-24 md:w-60 lg:w-80 object-contain reveal-on-scroll" src="multi/coraline2.png" alt="Coraline Derecha" style="transition-delay: 0.2s;">
+            </div>
+            <div class="pt-10 px-4">
+                <p class="text-center font-coraline text-lg md:text-3xl text-white font-bold w-full max-w-[800px] reveal-on-scroll leading-relaxed" style="transition-delay: 0.4s;">
+                    Una obra maestra de la animación stop-motion, destacada por ser el primer largometraje diseñado en 3D estereoscópico. 
+                </p>
+            </div>
+            <div class="absolute -bottom-8 md:-bottom-20 left-0 w-full overflow-hidden z-20 pointer-events-none">
+                <div class="flex flex-row justify-center items-center w-full">
+                    <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover" alt="botones divisores">
+                </div>
+            </div>
+        </section>
+
+        <section class="relative z-30 bg-[url(multi/hojablanca.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center pt-16 md:pt-24 px-4 pb-32 -mt-[1px]">
+            <h2 class="font-coraline text-4xl md:text-6xl text-black mb-16 font-bold text-center drop-shadow-sm reveal-on-scroll">
+                Conoce a los personajes
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-8 w-full max-w-6xl">
+                <div class="md:col-span-2 flex flex-col items-center group reveal-on-scroll">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/corachara.png">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/corabtn.png">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold">Coraline</h3>
+                </div>
+
+                <div class="md:col-span-2 flex flex-col items-center group reveal-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/wybiechar.png">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/wybiebtn.png">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold">Wybie</h3>
+                </div>
+
+                <div class="md:col-span-2 flex flex-col items-center group reveal-on-scroll" style="transition-delay: 0.4s;">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:-translate-y-2">
+                        <img class="w-full h-full object-contain" src="multi/cat.png">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold">Gato</h3>
+                </div>
+                
+                <div class="md:col-span-2 md:col-start-2 flex flex-col items-center group mt-8 reveal-on-scroll">                                                                                                                                                                                         
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/fatherchara.png">
+                        <img class="imgs1 w-full h-full object-contain" src="multi/fatherbtn.png">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold">Padre</h3>
+                </div>
+
+                <div class="md:col-span-2 flex flex-col items-center group mt-8 reveal-on-scroll">
+                    <div class="relative w-full aspect-[3/4] overflow-hidden rounded-2xl bg-black/50 backdrop-blur-sm border-2 border-black/10 shadow-lg p-6 transition-all duration-300 group-hover:-translate-y-2">
+                        <img class="imgs1 w-full h-full object-contain animate-pulse" src="multi/motherchara.png">
+                        <img class="imgs1 w-full h-full object-contain animate-pulse" src="multi/coraline2.png">
+                    </div>
+                    <h3 class="font-coraline text-3xl mt-6 text-black font-bold animate-pulse drop-shadow-[0_0_10px_rgba(0,0,0,1)]">
+                        Madre
+                    </h3>                
+                </div>
+            </div>
+            <div class="absolute -bottom-8 md:-bottom-20 left-0 w-full z-40 pointer-events-none">
+                <div class="flex flex-row justify-center items-center w-full">
+                    <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover">
+                </div>
+            </div>
+        </section >
+
+        <section class="relative z-20 bg-[url(multi/tunel.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 px-4 pb-32 -mt-[1px]">
+            <h2 class="font-coraline text-3xl md:text-5xl text-white pb-5 font-bold text-center max-w-3xl reveal-on-scroll">
+                Adentrate en Los Mundos de Coraline
+            </h2>
+            <img class="w-full max-w-[600px] transition-transform duration-700 ease-out hover:scale-190 cursor-pointer reveal-on-scroll" src="multi/coralinetunel.png">
+            
+            <div class="absolute -bottom-4 md:-bottom-10 left-0 w-full z-40 pointer-events-none">
+                <div class="flex flex-row justify-center items-center w-full">
+                    <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover">
+                </div>
+            </div>
+        </section>
+        
+        <section class="relative z-10 bg-[url(multi/hojablanca.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 px-6 pb-32">
+            <div class="max-w-4xl bg-black/60 backdrop-blur-md p-8 md:p-12 rounded-3xl border border-white/20 shadow-2xl animate-reveal">
+                <h2 class="font-coraline text-4xl md:text-6xl text-white mb-8 text-center font-bold tracking-wider">Sinopsis</h2>
+                
+                <p class="font-coraline text-lg md:text-2xl text-white leading-relaxed text-center italic font-bold">
+                    "Coraline es una joven aburrida que descubre que la pared tapiada tras una puerta de su piso conduce a otro mundo, con otra madre y otro padre. 
+                    Todo comienza cuando la joven atraviesa una puerta secreta de su nuevo hogar y descubre una versión alternativa de su vida. 
+                    A primera vista, esta realidad paralela es muy parecida a su vida real, pero mucho mejor."
+                </p>
+                
+                <p class="font-coraline text-lg md:text-2xl text-white mt-6 leading-relaxed text-center font-bold">
+                    Pero cuando esta fantástica aventura se vuelve peligrosa y sus falsos padres intentan retenerla para siempre, 
+                    Coraline debe confiar en su ingenio, determinación y valentía para volver a casa y salvar a su familia.
+                </p>
+
+                <div class="flex justify-center mt-10">
+                    <img src="multi/laikalogo.png" class="w-32 opacity-50 hover:opacity-100 transition-opacity" alt="Laika Logo">
+                </div>
+            </div>
+            <div class="absolute -bottom-4 md:-bottom-10 left-0 w-full z-40 pointer-events-none">
+                <div class="flex flex-row justify-center items-center w-full">
+                    <img src="multi/btnss.png" class="h-16 md:h-32 lg:h-42 w-auto min-w-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <section class="relative z-0 bg-[url(multi/vhs.png)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 px-6 pb-32">
+            <div class="text-center reveal-on-scroll">
+                <h2 class="font-spooky text-5xl md:text-7xl text-black-500 mb-8 animate-pulse drop-shadow-[0_5px_5px_rgba(0,0,0,1)]">
+                    ¿Te atreves a cruzar?
+                </h2>
+                <a href="#" class="group relative inline-flex items-center justify-center px-10 py-4 font-coraline text-2xl font-bold text-white transition-all duration-300 bg-transparent border-2 border-white rounded-full hover:bg-white hover:text-black overflow-hidden">
+                    <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 group-hover:opacity-20 transition-opacity"></span>
+                    <span class="relative flex items-center gap-3">VER AHORA</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 py-10 border-t border-white/5">
+        <p class="text-center text-white/30 font-coraline font-bold text-lg">2026 Laika Studios</p>
+    </footer>
+
+    <script>
+        //cuado se llega a ciertas secciones se activan las animaciones reveals
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                root: null,
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-reveal');
+                    }
+                });
+            }, observerOptions);
+
+            const elementsToReveal = document.querySelectorAll('.reveal-on-scroll');
+            elementsToReveal.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
